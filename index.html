@@ -159,17 +159,19 @@ section{padding:96px 0}
   max-width:700px;margin-top:8px;
 }
 
-/* ===== SOROTAN - horizontal scroll ===== */
+/* ===== SOROTAN - horizontal scroll with nav ===== */
+.sorotan-wrap{position:relative;margin-top:32px}
 .sorotan-scroll{
-  display:flex;gap:8px;overflow-x:auto;padding:20px 0 8px;
-  scroll-snap-type:x mandatory;margin-top:32px;
+  display:flex;gap:8px;overflow-x:auto;padding:8px 0;
+  scroll-snap-type:x mandatory;scroll-behavior:smooth;
+  -webkit-overflow-scrolling:touch;
 }
-.sorotan-scroll::-webkit-scrollbar{height:4px}
-.sorotan-scroll::-webkit-scrollbar-track{background:var(--c-border);border-radius:2px}
-.sorotan-scroll::-webkit-scrollbar-thumb{background:var(--c-accent);border-radius:2px}
+.sorotan-scroll::-webkit-scrollbar{height:6px}
+.sorotan-scroll::-webkit-scrollbar-track{background:var(--c-border);border-radius:3px}
+.sorotan-scroll::-webkit-scrollbar-thumb{background:var(--c-accent);border-radius:3px}
 .sorotan-scroll .card{
-  flex:0 0 360px;scroll-snap-align:start;position:relative;
-  overflow:hidden;height:400px;
+  flex:0 0 320px;scroll-snap-align:start;position:relative;
+  overflow:hidden;height:380px;
 }
 .sorotan-scroll .card img{
   width:100%;height:100%;object-fit:cover;
@@ -180,18 +182,57 @@ section{padding:96px 0}
   position:absolute;bottom:0;left:0;right:0;
   padding:16px;
   background:linear-gradient(transparent,rgba(0,0,0,.75) 40%);
-  font-family:var(--f-display);font-size:.9rem;font-weight:600;
+  font-family:var(--f-display);font-size:.85rem;font-weight:600;
   letter-spacing:.02em;color:#fff;
 }
+/* nav arrows */
+.sorotan-nav{
+  position:absolute;top:50%;transform:translateY(-50%);z-index:2;
+  width:40px;height:40px;border-radius:50%;
+  background:var(--c-accent);color:var(--c-bg);border:none;
+  display:flex;align-items:center;justify-content:center;
+  cursor:pointer;font-size:1.2rem;transition:all .2s;
+  box-shadow:0 4px 16px rgba(0,0,0,.3);
+}
+.sorotan-nav:hover{transform:translateY(-50%) scale(1.1);filter:brightness(1.1)}
+.sorotan-nav-left{left:-12px}
+.sorotan-nav-right{right:-12px}
 
-/* ===== MENU - balanced 2-col grid ===== */
+/* ===== MENU - creative magazine layout ===== */
 .menu-grid{
-  display:grid;grid-template-columns:1fr 1fr;gap:4px;margin-top:32px;
+  display:grid;gap:4px;margin-top:32px;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-auto-rows:auto;
+}
+/* first row: 2 tall verticals spanning col 1-2, and one 4:3 in col 3 */
+.menu-grid .item:nth-child(1){
+  grid-column:1/2;aspect-ratio:3/4;
+}
+.menu-grid .item:nth-child(2){
+  grid-column:2/3;aspect-ratio:3/4;
+}
+.menu-grid .item:nth-child(3){
+  grid-column:3/4;aspect-ratio:4/3;
+}
+/* second row: full-width panorama + one cell */
+.menu-grid .item:nth-child(4){
+  grid-column:1/4;aspect-ratio:21/9;
+}
+.menu-grid .item:nth-child(5){
+  grid-column:1/3;aspect-ratio:4/3;
+}
+.menu-grid .item:nth-child(6){
+  grid-column:3/4;aspect-ratio:4/3;
+}
+/* third row: 3 equal squares */
+.menu-grid .item:nth-child(7),
+.menu-grid .item:nth-child(8),
+.menu-grid .item:nth-child(9){
+  aspect-ratio:1/1;
 }
 .menu-grid .item{
-  position:relative;overflow:hidden;aspect-ratio:4/3;
+  position:relative;overflow:hidden;
 }
-.menu-grid .item:first-child{aspect-ratio:16/9;grid-column:1/-1}
 .menu-grid .item img{
   width:100%;height:100%;object-fit:cover;
   transition:transform .5s;
@@ -309,9 +350,18 @@ footer a:hover{color:var(--c-accent)}
   .hero .actions .btn{padding:12px 20px;font-size:.8rem}
   .info-card{grid-template-columns:1fr;gap:28px;padding:28px;margin-left:-24px;margin-right:-24px}
   .sorotan-scroll .card{flex:0 0 280px;height:320px}
+  .sorotan-nav{display:none}
   .menu-grid{grid-template-columns:1fr 1fr}
   .menu-grid .item{aspect-ratio:3/2}
-  .menu-grid .item:first-child{aspect-ratio:4/3}
+  .menu-grid .item:nth-child(1),
+  .menu-grid .item:nth-child(2),
+  .menu-grid .item:nth-child(3),
+  .menu-grid .item:nth-child(4),
+  .menu-grid .item:nth-child(5),
+  .menu-grid .item:nth-child(6),
+  .menu-grid .item:nth-child(7),
+  .menu-grid .item:nth-child(8),
+  .menu-grid .item:nth-child(9){grid-column:auto;aspect-ratio:3/2}
   .testimoni-grid{grid-template-columns:1fr}
   .map-wrap{height:300px;margin-top:0;margin-bottom:0}
   .map-address{margin-left:0;font-size:.85rem}
@@ -380,7 +430,8 @@ footer a:hover{color:var(--c-accent)}
     <div class="section-num">02</div>
     <span class="section-label">Sorotan</span>
     <h2 class="section-title">Yang terkenal di sini</h2>
-    <div class="sorotan-scroll">
+    <div class="sorotan-wrap">
+    <div class="sorotan-scroll" id="sorotan-scroll">
       
       <div class="card">
         <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAFFMS8Snq2PJTsPBJXWIsL2EWVcy47ome1-CpII8lByS9uEbBazEknbiDYruD2F87DWO5RALzuMDogBBNGg-2UIueMv8IYXk9DgWTcQ76Lvo5EahjHtpfoa51XbAubh7Ne1Rh9q=s1600" alt="Piza" loading="lazy">
@@ -717,6 +768,9 @@ Overall very recommended :))</div>
         
       </div>
     </div>
+    <button class="sorotan-nav sorotan-nav-left" onclick="document.getElementById('sorotan-scroll').scrollBy({left:-360,behavior:'smooth'})">&lsaquo;</button>
+    <button class="sorotan-nav sorotan-nav-right" onclick="document.getElementById('sorotan-scroll').scrollBy({left:360,behavior:'smooth'})">&rsaquo;</button>
+  </div>
   </div>
 </section>
 
