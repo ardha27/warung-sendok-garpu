@@ -1,0 +1,339 @@
+{
+  "name": "Warung Sendok Garpu",
+  "rating": 4.7,
+  "review_count": 1518,
+  "price_range": "Rp 25–75 rb",
+  "categories": [
+    "Restoran",
+    "Restoran Bali",
+    "Tempat acara",
+    "Restoran makan siang",
+    "Restoran spesial olahan nasi"
+  ],
+  "type": "restaurant",
+  "address_text": "Jl. Dharma Giri, Buruan, Kec. Blahbatuh, Kabupaten Gianyar, Bali 80581",
+  "address": {
+    "borough": "Buruan, Kecamatan Blahbatuh",
+    "street": "Jl. Dharma Giri",
+    "city": "Kabupaten Gianyar",
+    "postal_code": "80581",
+    "state": "Bali",
+    "country": "ID"
+  },
+  "phone": "0812-2860-3368",
+  "website": "",
+  "plus_code": "F826+VP Buruan, Kabupaten Gianyar, Bali",
+  "coordinates": {
+    "lat": -8.5477967,
+    "lng": 115.3118537
+  },
+  "hours": {
+    "Jumat": [
+      "07.30–22.30"
+    ],
+    "Kamis": [
+      "07.30–22.30"
+    ],
+    "Minggu": [
+      "07.30–22.30"
+    ],
+    "Rabu": [
+      "12.00–22.30"
+    ],
+    "Sabtu": [
+      "07.30–22.30"
+    ],
+    "Selasa": [
+      "Tutup"
+    ],
+    "Senin": [
+      "07.30–22.30"
+    ]
+  },
+  "popular_times": {
+    "Friday": {
+      "10": 14,
+      "11": 14,
+      "12": 16,
+      "13": 20,
+      "14": 27,
+      "15": 30,
+      "16": 35,
+      "17": 50,
+      "18": 71,
+      "19": 90,
+      "20": 86,
+      "21": 67,
+      "22": 40,
+      "23": 0,
+      "6": 0,
+      "7": 8,
+      "8": 11,
+      "9": 12
+    },
+    "Monday": {
+      "10": 11,
+      "11": 9,
+      "12": 11,
+      "13": 15,
+      "14": 18,
+      "15": 20,
+      "16": 26,
+      "17": 37,
+      "18": 52,
+      "19": 64,
+      "20": 60,
+      "21": 49,
+      "22": 32,
+      "23": 0,
+      "6": 0,
+      "7": 13,
+      "8": 15,
+      "9": 15
+    },
+    "Saturday": {
+      "10": 18,
+      "11": 20,
+      "12": 20,
+      "13": 22,
+      "14": 28,
+      "15": 33,
+      "16": 41,
+      "17": 58,
+      "18": 80,
+      "19": 100,
+      "20": 100,
+      "21": 81,
+      "22": 49,
+      "23": 0,
+      "6": 0,
+      "7": 6,
+      "8": 10,
+      "9": 15
+    },
+    "Sunday": {
+      "10": 19,
+      "11": 20,
+      "12": 20,
+      "13": 22,
+      "14": 25,
+      "15": 30,
+      "16": 41,
+      "17": 60,
+      "18": 86,
+      "19": 98,
+      "20": 88,
+      "21": 64,
+      "22": 41,
+      "23": 0,
+      "6": 0,
+      "7": 11,
+      "8": 14,
+      "9": 14
+    },
+    "Thursday": {
+      "10": 11,
+      "11": 11,
+      "12": 13,
+      "13": 16,
+      "14": 20,
+      "15": 24,
+      "16": 26,
+      "17": 29,
+      "18": 40,
+      "19": 53,
+      "20": 60,
+      "21": 49,
+      "22": 29,
+      "23": 0,
+      "6": 0,
+      "7": 10,
+      "8": 13,
+      "9": 11
+    },
+    "Tuesday": {},
+    "Wednesday": {
+      "10": 0,
+      "11": 0,
+      "12": 17,
+      "13": 14,
+      "14": 15,
+      "15": 20,
+      "16": 28,
+      "17": 37,
+      "18": 47,
+      "19": 57,
+      "20": 56,
+      "21": 45,
+      "22": 28,
+      "23": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0
+    }
+  },
+  "facilities": {
+    "Opsi layanan": {
+      "Tempat duduk di area terbuka": true,
+      "Bawa pulang": true,
+      "Makan di tempat": true
+    },
+    "Keunggulan": {
+      "Musik live": true,
+      "Tempat duduk di atap": true
+    },
+    "Aksesibilitas": {
+      "Kursi khusus pengguna kursi roda": false
+    },
+    "Penawaran": {
+      "Alkohol": true,
+      "Bir": true,
+      "Hidangan organik": true,
+      "Koktail": true,
+      "Kopi": true,
+      "Makan sepuasnya": true,
+      "Makanan halal": true,
+      "Makanan happy hour": true,
+      "Minuman happy hour": true,
+      "Minuman keras": true
+    },
+    "Pilihan makan": {
+      "Sarapan": true,
+      "Makan siang": true,
+      "Makan malam": true,
+      "Katering": true,
+      "Hidangan penutup": true,
+      "Tempat duduk": true
+    },
+    "Fasilitas": {
+      "Memiliki bar": true,
+      "Toilet": true,
+      "Wi-Fi": false
+    },
+    "Tipe pengunjung": {
+      "Ramah keluarga": true
+    },
+    "Perencanaan": {
+      "Menerima reservasi": true
+    },
+    "Pembayaran": {
+      "Kartu debit": true,
+      "Pembayaran seluler dengan NFC": true,
+      "Kartu kredit": false
+    },
+    "Anak-anak": {
+      "Cocok untuk anak-anak": true,
+      "Kursi tinggi": true,
+      "Menu anak": true
+    },
+    "Parkir": {
+      "Parkir": false,
+      "Parkir di jalan gratis": true,
+      "Tempat parkir gratis": true
+    }
+  },
+  "sorotan": [
+    {
+      "name": "Piza",
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFFMS8Snq2PJTsPBJXWIsL2EWVcy47ome1-CpII8lByS9uEbBazEknbiDYruD2F87DWO5RALzuMDogBBNGg-2UIueMv8IYXk9DgWTcQ76Lvo5EahjHtpfoa51XbAubh7Ne1Rh9q=s1600"
+    },
+    {
+      "name": "Ramen",
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHFReyG7vPw2drHdhtKOsmeQnorH01pbmapC2zqPvZQ5bjt1Hkfb0zLi5HZCSBSgKA64VnF7njxfdUH7UU3Gx-Y2VLsm28yXQUJ8hP-TjpsegV0jakgioQG_AehMTycQ5HqOQcL=s1600"
+    },
+    {
+      "name": "Roti lapis ayam",
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHXKfFujJ0RDJC57Hi13V7-9kzom0i2NZeBdw0F1VHt4JLvR8yThT182ex0xIZDnCOyfjk4hwDyFf9VKXDCW0DbJ7ru3ICmltMEaZ9tDUydP_5HN2fMNzyiEGbvY3mrJ954UfhWcWPZnfKN=s1600"
+    },
+    {
+      "name": "Nasi goreng",
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE0T-ehgJsJD-YmgBPzn7I0gJB5mu5GS05PG9B_cLiOPS14nXzzuUGAuP8MB7UpNlFHrG69yIj8oY-P8oj6-UBaBAQmLCoqsBKnquJp5otO4An9NtBdJJzzjHX7o6ylmgJim-XT=s1600"
+    },
+    {
+      "name": "Jus",
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGNsAr_BB5VqlAQ8WRYj4xQAQXsjbwhaQaO2boNDICBkFgioIojGgeM93Xukzu-RcRlnQeV9eO-9eA7BSGy-C8y1HgN_HvbyzDm9oOBG6ub8cnbQ2hdUD1qRLlTx29CWqf8y6ewI1ywOA8=s1600"
+    },
+    {
+      "name": "Salad buah",
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGF1D-IXtDTnMP67AdEoy7CjI68qUjhGU-1hmEEyTtEaj-QN_U-3CK7KyqV3_2WSITmNOw-laznoY3B6t1qzW_pZSCtYYrxN9Gxrg16mHVtrxB7ICIugSl-WfgeIbwUGSQFQSqq=s1600"
+    },
+    {
+      "name": "Quesadilla",
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFsYJB5jBrQtlJBHFuP5SO1qdwNtlijQTGw9dgs5pXDgPqlsdxmMARvjLo1hui7wRRf8QyCsFvp7NZuiucj6ZPz-CAxxTfAbuxIx0jA0Sp_dJ0cHknppdxAsYwfe9VJDbIKKvYAeBBP8Ps=s1600"
+    },
+    {
+      "name": "Kentang goreng",
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEAiLmp19YgXByDwosaknT99Znqko-VgyVZCsxOlVISn2OMJF120f0805VkE16AVT_v0u8OAL8AJ6eFmNV56dYhYpq6iUF3t2ShVFMeoPCdyMW3YUcLkMB3o7icjzDYkKDhHJ1G=s1600"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Cahya Saraswati",
+      "rating": 5,
+      "text": "Tempatnya luas, banyak pilihan area untuk indoor dan outdoor dan kids friendly karena ada playground. Suasana sangat nyaman dan pelayanan ramah. Porsi makanan cukup besar, waktu tunggu makanan relatif singkat dan harga yg sesuai.\n\nOverall very recommended :))",
+      "when": "4 bulan lalu",
+      "images": [
+        "https://lh3.googleusercontent.com/grass-cs/ANxoTn1dl-fKQUMUZ9rFSmm13BX-40kuuO0DTFzpsMf_C6vhoqSVNrKJnceOF-nhXx9SB1wfqpNtp7UfjbDT4AQmRveStMr_8sEmGRnFg5ZzxfPvv0hqwksAfmUfO2nt6MKdWn-KM6usji1pzIk=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ANxoTn13rBAna86U3HSFn0DUbubk7OYwTwGIS22NY2MmO7AmjCwejHoaJ3AFN6-dU262J78dq_Mv20CbUcNwbOiph5aT-IwEO56vOumj2VtlzFge5e-vwPCC6MpMH__TJwkMszyI_gLN00hQOeAj=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ANxoTn0504NrVV8V1y9pMNfhXu6VWS95rf4ENPCkEVcwrbQTq_ucMNUy48AUwxjQ32xyilFB_f93zIqszLpoo1Tw7yYNwuBFCYw5RY9jJsKwFMnmPGRPTRs09YbYOxqo1BPXVaKWhb18ncF0eH3u=k-no"
+      ]
+    },
+    {
+      "name": "Derie Ariyanti",
+      "rating": 5,
+      "text": "Tempatnya sekarang makin estetik setelah renovasi, vibesnya cozy dan nyaman banget. Bebek goreng bumbu hitamnya wajib coba karena gurih, bumbunya meresap sampai ke dalam, dagingnya empuk dan sama sekali nggak alot. Spicy chicken wingsnya juga enak, ayamnya memang pedas dari bumbunya, crispy di luar dan disajikan dengan mayo buat dipping. Friesnya garing, minumannya fresh. Pelayanannya super sigap dan friendly. Overall very satisfying, recommended kalau ke Gianyar 👌",
+      "when": "4 bulan lalu",
+      "images": [
+        "https://lh3.googleusercontent.com/grass-cs/ANxoTn0iY9rOGtysKb7RVxOEMVppqAKPAAZt4sAtOD1yF-9DScnMYhzu-sbgms1wxXeFPUXOJ9XukY5Wx2u_P5mlFs3UerKocdU2QV6jgtKihaWftE76nc0gSEI9NQnDRy2TGs2BooODP9Rwbpvh=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ANxoTn1zZuUnV8NAJ8sHgwsM311wTuH3G1Bo2LkL1PqBbf7Jj_vHKGfAOhvKy5Vf32d8i-bYBpiknhdMAR6PbPvrPH6-L7xH8BrTSAq3hd9_EXCCkOA3LxhO4_oTv8Oq1EqwHWkA5dZQrV3lQe7u=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ANxoTn295WnZsBpvGnS5TwF33dko--g9uF50nqPADOgzfAzw3e9VqMlP6k5amwF9UQDE47tPhAAGRZ05iFp49bxZH2B-zDcEom0Xxnp2Kp_DUdFARmOJYLIX_M-7g7C5akBQjl50BWLEfP8b1Ldg=k-no"
+      ]
+    },
+    {
+      "name": "Dewa Angga",
+      "rating": 5,
+      "text": "Tempatnya bagus banget, makanannya enak, staffnya ramah\" murah senyum, baik hati😁",
+      "when": "3 bulan lalu",
+      "images": [
+        "https://lh3.googleusercontent.com/grass-cs/ANxoTn10k8afAo10EVk9QhjtXpYVgcivYRbIWIBsz50V0PrVE12zwE8KwVZap3KMTUvQvQ155oAmtqylpBtUETS24ONpuqaB2Ns7IxTYXmsaHhLS35zw3n_lxzLxwO1Pbv7b82Rdycr_Q0UDj0E=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ANxoTn3yrZ1v2SR9S4PrGw07MkVeusRiuUYmllM4uroGe1EbdSlc_uFKJ015dTeyhytS8UNSrXAlAeGTlGKBD-Mt7rpjt6WK27FTyuJaa0t9FuGZni9Ewrnh3W0pwdXkj4O_KI-RW4wj-JblaYo=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ANxoTn3vnDe8lmyEOhnF83V64r-vz-QAFtcwYgyqo47EBWhy3psN_LEQrdCpwbXeETpUNLh8rCYlL5ZQUnlXxbrdDYMrJqE5BPjHdIuLXsIJsuiEYpqVNns31EKsRWfjly-RcLlC70K1Z1jnUpbq=k-no"
+      ]
+    },
+    {
+      "name": "I Wayan Gede Redana Wiantara",
+      "rating": 5,
+      "text": "Saya pesan beberapa menu dan semuanya memuaskan, sayangnya pilihan menunya terlalu sedikit menurut saya.\n\nPelayanan juga jadi poin plus besar. Staff ramah, sopan, dan komunikasinya jelas. Bahkan waktu pesan dessert banana split, mereka gak langsung bilang ada, tapi konfirmasi dulu ke kitchen dan langsung kasih kepastian. Ini detail kecil tapi bikin merasa dihargai sebagai customer.\n\nWaktu tunggu juga cepat, kurang dari 30 menit makanan sudah datang lengkap, padahal pesanannya cukup banyak. Ini nunjukin timnya terorganisir dengan baik.\n\nTempatnya nyaman, bersih, dan suasananya hangat cocok buat makan santai atau momen spesial.\n\nOverall, pengalaman makan di sini benar-benar memuaskan, dari makanan, pelayanan, sampai suasana. Definitely worth it dan bakal balik lagi.\n⭐️⭐️⭐️⭐️⭐️",
+      "when": "2 bulan lalu",
+      "images": [
+        "https://lh3.googleusercontent.com/grass-cs/ANxoTn2WVnWyXzmB9NeW56yKB1ZNCYKOV9P2ggF0mQ4JycOdNnCgU62Dly7Qu6iZq1gjAKsE-ir9HctNWscf8rk1I95JU9MEGvZaWMAikRqn-4GUvRymgagtX657NfORuW76H5imbXIo9Fp8NAeC=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ANxoTn2V0YYys2hH3DYmlJvKevI0O3a04OS42CTjIprp71lmF3f8LNmJtY5dVvd4OY489pgkm6P9LP8gIHYkKCMwJiyInBCRwlfY73siTiA8H5zUczDQ-i2nX7RZbuFy7jFwPNLY4LAlNJ329EtL=k-no",
+        "https://lh3.googleusercontent.com/grass-cs/ANxoTn1octGeqxJwV3CjzbXsQxrlV0Tbwa9FzFYww4YcZmQSFPEvfRuF8lXZYB9yA8QPONfA1C2oYIu6ObSZd2B85GVHlz1Q9NCrBAEqTRrLqR2aezGNk-bUBpOaNGuYILIV7r9Qpz-0t8pTCnL7=k-no"
+      ]
+    },
+    {
+      "name": "citra dwi",
+      "rating": 5,
+      "text": "Pelayanan ramah, makanan enak, harga tidak terlalu mahal, cocok utk me time bersama keluarga maupun teman. Suasana nyaman",
+      "when": "3 bulan lalu",
+      "images": [
+        "https://lh3.googleusercontent.com/grass-cs/ANxoTn11-Qi0SRngt0U4H3EMBmmCTFF5S33cG4faoukLkukQwPez8l3UijBnBCl0Fes7CCnrcqyFgHKgRcqkg5tkb7qNDDsEOx8SWtZLUBPdL6EQrcu2pjvWBpHf8Az-Ccoel3heViWOPxQZsJA=k-no"
+      ]
+    }
+  ],
+  "menu_link": "https://linktr.ee/sendokgarpuwarung",
+  "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG3RQwUVD4muPQRSgFBy4uwsm_X1BkRIojHt6P9tcDT9JV4H5STWNGCClNsKmX2j3BF2-9hqn7KgcDjlHq82FAwz85_EExMx7BUGmUNFSt8_L84GMI-H2YTns2nIdbliM26ar1Bcg=w408-h306-k-no",
+  "place_id": "0x2dd217f19f7d1293:0x763686e382e7b4ff",
+  "source_url": "https://maps.app.goo.gl/48VNZ98P6yEqVY6y6",
+  "owner": {
+    "id": "101754034462461220925",
+    "name": "Warung Sendok Garpu (Pemilik)",
+    "link": "https://www.google.com/maps/contrib/101754034462461220925"
+  },
+  "sources": {
+    "gosom": true,
+    "apify": true
+  },
+  "apify_photos": []
+}
