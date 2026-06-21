@@ -41,24 +41,48 @@ img{max-width:100%;height:auto;display:block}
 a{color:inherit;text-decoration:none}
 ::selection{background:var(--c-accent);color:var(--c-bg)}
 
-/* woven texture overlay - subtle balinese vibe */
+/* ambient background - warm depth */
 body::before{
   content:'';position:fixed;inset:0;z-index:0;pointer-events:none;
-  background-image:
-    repeating-linear-gradient(0deg,transparent,transparent 40px,rgba(255,255,255,.02) 40px,rgba(255,255,255,.02) 41px),
-    repeating-linear-gradient(90deg,transparent,transparent 40px,rgba(255,255,255,.02) 40px,rgba(255,255,255,.02) 41px),
-    radial-gradient(ellipse at 20% 0%, rgba(255,200,100,.06) 0%,transparent 50%),
-    radial-gradient(ellipse at 80% 100%, rgba(200,120,60,.05) 0%,transparent 50%);
+  background:
+    /* warm glow from top-right */
+    radial-gradient(ellipse 80% 50% at 80% 0%, rgba(200,160,80,.12) 0%,transparent 60%),
+    /* subtle warm light from bottom-left */
+    radial-gradient(ellipse 60% 40% at 20% 100%, rgba(180,120,60,.08) 0%,transparent 60%),
+    /* central ambient */
+    radial-gradient(ellipse 50% 60% at 50% 40%, rgba(255,220,160,.04) 0%,transparent 50%),
+    /* organic pattern - woven balinese */
+    repeating-conic-gradient(rgba(255,255,255,.015) 0% 25%, transparent 0% 50%) 0 0 / 60px 60px,
+    repeating-linear-gradient(45deg, transparent, transparent 60px, rgba(255,255,255,.012) 60px, rgba(255,255,255,.012) 61px);
+}
+/* floating light orbs - animated */
+body::after{
+  content:'';position:fixed;inset:0;z-index:0;pointer-events:none;
+  background:
+    radial-gradient(circle 120px at 15% 25%, rgba(200,160,80,.06) 0%,transparent 100%),
+    radial-gradient(circle 90px at 70% 60%, rgba(180,120,50,.05) 0%,transparent 100%),
+    radial-gradient(circle 60px at 40% 80%, rgba(220,180,100,.04) 0%,transparent 100%);
+  animation:drift 20s ease-in-out infinite alternate;
+}
+@keyframes drift{
+  0%{transform:translate(0,0)}
+  50%{transform:translate(20px,-10px)}
+  100%{transform:translate(-10px,15px)}
 }
 section, footer{position:relative;z-index:1}
-/* surface sections get a subtle warm glow */
+/* surface sections get warm glow inset */
 section.surface::before{
   content:'';position:absolute;inset:0;z-index:0;
-  background:radial-gradient(ellipse at 30% 20%, rgba(255,200,100,.04) 0%,transparent 40%),
-             radial-gradient(ellipse at 70% 80%, rgba(200,120,60,.03) 0%,transparent 40%);
+  background:radial-gradient(ellipse at 40% 30%, rgba(255,200,100,.05) 0%,transparent 50%),
+             radial-gradient(ellipse at 70% 80%, rgba(200,120,60,.04) 0%,transparent 50%);
   pointer-events:none;
 }
 section.surface .wide, section.surface .narrow{position:relative;z-index:1}
+/* hero overlay - deeper gradient */
+.hero::after{
+  content:'';position:absolute;inset:0;z-index:1;
+  background:linear-gradient(0deg,#374d3b 0%,transparent 45%,transparent 65%,#374d3b 100%);
+}
 
 .wide{max-width:var(--w-wide);margin:0 auto;padding:0 24px}
 .narrow{max-width:var(--w-narrow);margin:0 auto;padding:0 24px}
@@ -94,10 +118,6 @@ section.surface .wide, section.surface .narrow{position:relative;z-index:1}
   width:100%;height:100%;object-fit:cover;
   filter:brightness(0.4) saturate(1.1) contrast(1.1);
   transform:scale(1.05);
-}
-.hero .overlay{
-  position:absolute;inset:0;z-index:1;
-  background:linear-gradient(0deg,#374d3b 0%,transparent 50%,transparent 70%,#374d3b 100%);
 }
 .hero .content{
   position:relative;z-index:2;width:100%;
@@ -280,7 +300,6 @@ footer a:hover{color:var(--c-accent)}
     <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAFFMS8Snq2PJTsPBJXWIsL2EWVcy47ome1-CpII8lByS9uEbBazEknbiDYruD2F87DWO5RALzuMDogBBNGg-2UIueMv8IYXk9DgWTcQ76Lvo5EahjHtpfoa51XbAubh7Ne1Rh9q=s1600" alt="Warung Sendok Garpu">
     
   </picture>
-  <div class="overlay"></div>
   <div class="content wide">
     <div class="badge">Restoran</div>
     <h1>Warung Sendok Garpu</h1>
